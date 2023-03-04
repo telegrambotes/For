@@ -7,9 +7,9 @@ import logging
 
 class Config:
     
-    API_ID = int(os.environ.get("API_ID", 12345))
-    API_HASH = os.environ.get("API_HASH")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID = int(os.environ.get("API_ID", "3393749"))
+    API_HASH = os.environ.get("API_HASH", "a15a5954a1db54952eebd08ea6c68b71")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "1892142872:AAFaFW_avr1VcfxjRDXfNTUS_KYxYPugxtE") 
     BOT_SESSION = os.environ.get("BOT_SESSION", "bot") 
     CAPTION = os.environ.get("CAPTION", "")
     FROM_CHANNEL = os.environ.get("FROM_CHANNEL", None)
